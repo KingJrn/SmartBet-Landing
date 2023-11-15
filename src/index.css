@@ -132,10 +132,19 @@ button.button {
 .hero-body.m-auto.container {
   width: 100%;
 }
-
 .is-active {
   height: 0px !important;
   padding: 0px !important;
+}
+.send-icon {
+  position: absolute;
+  right: 50px;
+  bottom: 20px;
+}
+.p-0 {
+  width: 50%;
+  height: 400px;
+  margin-inline: auto;
 }
 /* Activities */
 
@@ -197,6 +206,7 @@ section.contact-us {
   border-radius: 40px;
   background: #060c27;
   margin-bottom: 100px;
+  position: relative;
 }
 .contact-us h1 {
   color: var(--white);
@@ -365,6 +375,11 @@ input[type="checkbox"] {
   .about-us {
     margin-left: 15px;
   }
+  .p-0 {
+    width: 70%;
+    height: 400px;
+    margin-inline: auto;
+  }
 }
 .mobile_nav {
   background: black;
@@ -381,6 +396,9 @@ input[type="checkbox"] {
   text-align: end;
   margin-right: 30px;
   font-weight: 700;
+}
+.send-message {
+  position: relative;
 }
 
 /* Light Mode */
