@@ -192,6 +192,9 @@ button.button {
   background: rgba(3, 79, 150, 0.5);
   color: #ffffff;
 }
+.footer {
+  margin-top: 100px;
+}
 .title_ {
   color: #fff;
   text-align: center;
