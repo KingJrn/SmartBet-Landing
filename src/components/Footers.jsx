@@ -4,8 +4,8 @@ function Footers() {
 
   return (
     <>
-      <section className="section community">
-        <h1 className="title_ is-size-3-mobile">Join Our Community</h1>
+      <section className="section community mt-6">
+        <h1 className="title_ is-size-5-mobile">Join Our Community</h1>
         <div className="subtitle_ is-flex is-flex-direction-row is-flex-wrap is-justify-content-center is-align-items-center">
           <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
             <path d="M39.8068 80C61.7914 80 79.6135 62.0914 79.6135 40C79.6135 17.9086 61.7914 0 39.8068 0C17.8221 0 0 17.9086 0 40C0 62.0914 17.8221 80 39.8068 80Z" fill="white" />
@@ -29,15 +29,17 @@ function Footers() {
       {/* Accordion */}
       <Accordion />
       <section className='section p-0 form'>
-        <h1 className='is-size-4-mobile mb-3 has-text-centered is-size-1'>Contact Us</h1>
-        <p className='is-size-7-mobile mb-6 has-text-centered is-size-4' >Do you have anything to share with us?</p>
-        <div className="send-message">
-          <textarea className=" textarea container-fluid" placeholder="Anything you’d like to share or feedback" rows="10"></textarea>
-          <span className="send-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
-              <path d="M41.9509 2.11C43.3288 3.51027 43.7409 5.45875 43.8971 6.87412C44.0714 8.45388 44.0114 10.2662 43.8138 12.1323C43.4165 15.8847 42.4064 20.3579 41.0541 24.6634C39.7035 28.9634 37.9559 33.2741 36.0068 36.6594C35.0357 38.3462 33.9484 39.9198 32.7505 41.1609C31.6059 42.3468 30.0271 43.5771 28.0377 43.9125L28.0268 43.9143C27.6524 43.9762 27.2874 43.99 27.1587 43.9949L27.1342 43.9958C25.8352 44.0486 24.7135 43.5905 23.9477 43.1792C23.129 42.7394 22.3607 42.1589 21.6756 41.5502C20.3023 40.3301 18.9638 38.7289 17.8747 37.0587C17.2779 36.1436 16.7125 35.1413 16.2504 34.1039C15.5648 32.565 15.9834 30.8165 17.0202 29.4874L23.3111 22.0748C23.6331 21.6954 23.6096 21.1331 23.2571 20.7817C22.9046 20.4302 22.3407 20.4068 21.9601 20.7279L14.5254 27C13.1083 28.0989 11.2342 28.5247 9.61348 27.7548C8.57717 27.2626 7.57802 26.6693 6.66528 26.0416C4.94177 24.8563 3.29037 23.3858 2.07933 21.8529C1.4751 21.0882 0.904265 20.2122 0.515462 19.2644C0.139766 18.3487 -0.184658 17.0727 0.121715 15.6769L0.122222 15.6746C0.54089 13.7687 1.79559 12.2596 2.98477 11.1604C4.23704 10.0029 5.81159 8.94031 7.50217 7.98266C10.8944 6.06113 15.19 4.31869 19.4734 2.96495C23.7591 1.61051 28.2068 0.590187 31.9371 0.188379C33.7916 -0.011373 35.5988 -0.0730753 37.1774 0.105631C38.5949 0.266103 40.5557 0.69217 41.9509 2.11Z" fill="#FFD321" />
-            </svg>
-          </span>
+        <div className="textarea-card">
+          <h1 className='is-size-4-mobile mb-3 has-text-centered is-size-1 has-text-white'>Contact Us</h1>
+          <p className='is-size-7-mobile mb-6 has-text-centered is-size-4 has-text-white'>Do you have anything to share with us?</p>
+          <div className="send-message">
+            <textarea className=" textarea container-fluid" placeholder="Anything you’d like to share or feedback" rows="10"></textarea>
+            <span className="send-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 44 44" fill="none">
+                <path d="M41.9509 2.11C43.3288 3.51027 43.7409 5.45875 43.8971 6.87412C44.0714 8.45388 44.0114 10.2662 43.8138 12.1323C43.4165 15.8847 42.4064 20.3579 41.0541 24.6634C39.7035 28.9634 37.9559 33.2741 36.0068 36.6594C35.0357 38.3462 33.9484 39.9198 32.7505 41.1609C31.6059 42.3468 30.0271 43.5771 28.0377 43.9125L28.0268 43.9143C27.6524 43.9762 27.2874 43.99 27.1587 43.9949L27.1342 43.9958C25.8352 44.0486 24.7135 43.5905 23.9477 43.1792C23.129 42.7394 22.3607 42.1589 21.6756 41.5502C20.3023 40.3301 18.9638 38.7289 17.8747 37.0587C17.2779 36.1436 16.7125 35.1413 16.2504 34.1039C15.5648 32.565 15.9834 30.8165 17.0202 29.4874L23.3111 22.0748C23.6331 21.6954 23.6096 21.1331 23.2571 20.7817C22.9046 20.4302 22.3407 20.4068 21.9601 20.7279L14.5254 27C13.1083 28.0989 11.2342 28.5247 9.61348 27.7548C8.57717 27.2626 7.57802 26.6693 6.66528 26.0416C4.94177 24.8563 3.29037 23.3858 2.07933 21.8529C1.4751 21.0882 0.904265 20.2122 0.515462 19.2644C0.139766 18.3487 -0.184658 17.0727 0.121715 15.6769L0.122222 15.6746C0.54089 13.7687 1.79559 12.2596 2.98477 11.1604C4.23704 10.0029 5.81159 8.94031 7.50217 7.98266C10.8944 6.06113 15.19 4.31869 19.4734 2.96495C23.7591 1.61051 28.2068 0.590187 31.9371 0.188379C33.7916 -0.011373 35.5988 -0.0730753 37.1774 0.105631C38.5949 0.266103 40.5557 0.69217 41.9509 2.11Z" fill="#FFD321" />
+              </svg>
+            </span>
+          </div>
         </div>
       </section>
       <footer className="footer">

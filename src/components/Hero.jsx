@@ -4,7 +4,7 @@ function Hero() {
       <section className="hero">
         <div className="hero-body m-auto container">
           <p className="_title is-size-1-mobile">#1 CRYPTO BETTING PLATFORM</p>
-          <div className="_subtitle is-flex is-flex-direction-row is-flex-wrap is-justify-content-space-between is-align-items-center">
+          <div id="actions" className="_subtitle is-flex is-flex-direction-row is-flex-wrap is-justify-content-space-between is-align-items-center">
             <span className="is-size-5-mobile">Safe</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -36,12 +36,14 @@ function Hero() {
 
       </section>
       <div className="welcome_page">
-        <h1 className="is-size-2">Welcome to SmartBet</h1>
-        <p className="">
-          This is a decentralized web3 betting platform built on the Binance Smartchain.
-          Bridging the gap between traditional betting and the future of online gambling using Web3 technology.
-          You will only experience the benefits of trustless and fast transactions, low fees, and total transparency with Smartbet.
-        </p>
+        <div className="welcome_page_wrapper ">
+          <h1 className="is-size-2 is-size-4-mobile">Welcome to SmartBet</h1>
+          <p className="">
+            This is a decentralized web3 betting platform built on the Binance Smartchain.
+            Bridging the gap between traditional betting and the future of online gambling using Web3 technology.
+            You will only experience the benefits of trustless and fast transactions, low fees, and total transparency with Smartbet.
+          </p>
+        </div>
       </div>
     </>
   );

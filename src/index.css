@@ -22,11 +22,9 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  color: var(--text-color);
-  background-color: var(--background-color);
-  font-family: Montserrat;
   font-style: normal;
   line-height: normal;
+  background: #001234;
 }
 /* utilities */
 
@@ -43,13 +41,15 @@ body {
   background-color: var(--yellow) !important;
   color: var(--black) !important;
 }
-
+.navbar-burger {
+  color: #f1c51a;
+}
 /* General styles */
 
 /* Hero section */
 
 section.hero {
-  min-height: 85vh;
+  /* min-height: 85vh; */
   width: 100%;
   padding-top: 50px;
   background-image: url("./assets/images/hero.png");
@@ -64,7 +64,7 @@ section.hero {
 ._title {
   color: var(--white);
   text-align: center;
-  font-size: 104px;
+  font-size: 102px;
   font-weight: 900;
   margin-bottom: 60px;
   width: 100%;
@@ -77,6 +77,7 @@ button.button {
   font-family: Inter;
   font-size: 40px;
   font-weight: 500;
+  border-radius: 10px;
 }
 ._subtitle span {
   color: var(--white);
@@ -96,6 +97,11 @@ button.button {
   padding-bottom: 100px;
   background-color: var(--primary-blue);
 }
+.welcome_page_wrapper {
+  width: 70%;
+  margin-inline: auto;
+  line-height: 60px;
+}
 .welcome_page h1 {
   color: var(--yellow);
   text-align: center;
@@ -108,7 +114,6 @@ button.button {
   text-align: center;
   font-size: 24px;
   font-weight: 400;
-  width: 80%;
   margin: auto;
 }
 /* Video */
@@ -142,15 +147,21 @@ button.button {
   bottom: 20px;
 }
 .p-0 {
-  width: 50%;
-  height: 400px;
+  width: 60%;
+  height: 600px;
   margin-inline: auto;
+  background-color: #060c27;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.plays {
+  width: 80%;
+  margin: 0 auto;
+  height: 30vh;
 }
 /* Activities */
-
-.video-wrapper {
-  margin-bottom: 40px;
-}
 
 .rect {
   background-image: url("./assets/images/activity.png");
@@ -165,6 +176,11 @@ button.button {
 .activity-info .buttons a {
   width: 50%;
 }
+.activity-info {
+  width: 70%;
+  padding-left: 3rem;
+}
+
 .activity-info h2 {
   color: var(--white);
   font-size: 82px;
@@ -183,14 +199,14 @@ button.button {
 ._white {
   color: white;
 }
-
-.is_mb {
-  margin-bottom: 10rem !important;
+.activities {
+  background: #001234;
 }
 /* footers */
 .community {
-  background: rgba(3, 79, 150, 0.5);
+  background: #01286f;
   color: #ffffff;
+  /* padding: 8rem; */
 }
 .footer {
   margin-top: 100px;
@@ -233,7 +249,7 @@ textarea::placeholder {
   font-size: 16px;
   font-weight: 400;
 }
-textarea{
+textarea {
   color: white;
 }
 .textarea {
@@ -256,12 +272,17 @@ textarea{
 /* Accordion */
 
 .container {
-  padding-inline: 200px;
+  /* padding-inline: 200px; */
   padding-block: 80px;
+  color: white;
+}
+.main-con {
+  background: #001234;
 }
 
 .faq-drawer {
   margin-bottom: 30px;
+  color: white;
 }
 
 .faq-drawer__content-wrapper {
@@ -320,25 +341,24 @@ textarea{
 input[type="checkbox"] {
   display: none;
 }
-
-@media only screen and (max-width: 600px) {
-  .container {
-    padding: 80px;
+@media only screen and (max-width: 1400px) {
+  ._subtitle span {
+    font-size: 40px;
   }
 }
-
+@media only screen and (max-width: 1200px) {
+  .activity-info h2 {
+    font-size: 50px;
+  }
+}
 /* end */
-@media (min-width: 1023px) {
-  .mobile_nav {
-    display: flex !important;
-  }
-  .is_gap {
-    margin-bottom: 20px;
-  }
-}
 @media (max-width: 1023px) {
+  ._title {
+    font-size: 70px;
+  }
+
   .is_mb {
-    margin-bottom: 3rem !important;
+    margin-bottom: 3rem;
   }
   .is_gap {
     display: flex;
@@ -349,24 +369,66 @@ input[type="checkbox"] {
     flex-direction: column-reverse;
   }
   #img_width {
-    width: 90%;
+    width: 40%;
+  }
+  #actions {
+    width: 80%;
+  }
+  .activity-info {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .activity-info .buttons a {
+    margin: auto;
+  }
+}
+@media (min-width: 1023px) {
+  .mobile_nav {
+    display: flex !important;
+  }
+  .is_gap {
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 768px) {
-  section.hero {
-    min-height: 70vh;
+  .textarea-card {
+    width: 80%;
+  }
+  textarea.textarea.container-fluid {
+    height: 200px;
+  }
+  #img_width {
+    width: 50%;
+  }
+  .activity-info {
+    width: 100%;
+    padding: 0;
+    text-align: center;
   }
   button.button {
+    /* width: 80%; */
+    padding: 20px 80px;
+    font-size: 16px;
+    margin: auto;
+  }
+  .activity-info .buttons a {
+    margin: auto;
     width: 80%;
     padding: 20px 80px;
     font-size: 16px;
   }
   .welcome_page p {
     width: auto;
+    line-height: 32px;
+    font-size: 16px;
   }
 
   ._subtitle a {
     font-size: 20px;
+  }
+  ._subtitle span {
+    font-size: 25px;
   }
   .subtitle_ a svg {
     width: 45px;
@@ -379,7 +441,7 @@ input[type="checkbox"] {
     margin-left: 15px;
   }
   .p-0 {
-    width: 70%;
+    width: 90%;
     height: 400px;
     margin-inline: auto;
   }
@@ -399,23 +461,52 @@ input[type="checkbox"] {
   text-align: end;
   margin-right: 30px;
   font-weight: 700;
+  color: white;
 }
 .send-message {
   position: relative;
 }
-
-/* Light Mode */
-@media (prefers-color-scheme: light) {
-  :root {
-    --text-color: var(--black);
-    --background-color: var(--white);
-  }
+.section_ {
+  padding: 3rem 1.5rem;
+  background: #060c27;
 }
 
-/* Dark Mode */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text-color: var(--white);
-    --background-color: var(--black);
+@media (max-width: 567.8px) {
+  #img_width {
+    width: 90%;
   }
+  #actions {
+    width: 100%;
+  }
+  .welcome_page_wrapper {
+    width: 90%;
+  }
+  .subtitle_ a svg {
+    width: 30px;
+    height: 30px;
+  }
+  .faq-drawer p {
+    font-size: 14px;
+  }
+  .rect img {
+    width: 80%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1023px) {
+  .is_gap {
+    display: flex;
+    flex-direction: row;
+  }
+  .activity-info h2 {
+    font-size: 30px;
+  }
+  .activity-info {
+    width: auto;
+  }
+  .activity-info p {
+    font-size: 18px;
+  }
+  #img_width {
+    width: 80%;
+}
 }
