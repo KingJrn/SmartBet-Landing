@@ -173,6 +173,7 @@ button.button {
   width: 100%;
   flex-wrap: wrap !important;
 }
+
 .activity-info .buttons a {
   width: 50%;
 }
@@ -489,7 +490,8 @@ input[type="checkbox"] {
     font-size: 14px;
   }
   .rect img {
-    width: 80%;
+    width: 100%;
+    height: auto;
   }
 }
 @media (min-width: 769px) and (max-width: 1023px) {
