@@ -37,7 +37,7 @@ function Header() {
             </a>
             <div className="navbar-item">
               <div className="buttons">
-                <a href='play.smartcryptobet.co' className="button is_warning is-size-5">
+                <a href='https://play.smartcryptobet.co/' className="button is_warning is-size-5">
                   <strong>Launch App</strong>
                 </a>
               </div>
@@ -59,7 +59,7 @@ function Header() {
             </a>
             <div className="navbar-item">
               <div className="buttons">
-                <a href='play.smartcryptobet.co' className="button is_warning is-size-5">
+                <a href='https://play.smartcryptobet.co/' className="button is_warning is-size-5">
                   <strong>Launch App</strong>
                 </a>
               </div>
