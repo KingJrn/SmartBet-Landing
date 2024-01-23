@@ -22,10 +22,10 @@ function Header() {
           </a>
         </div>
         {/* display nne on desktop screen */}
-        <nav className={`is-0-mobile ${isActive ? 'mobile_nav': ''}`}>
-        
+        <nav className={`is-0-mobile ${isActive ? 'mobile_nav' : ''}`}>
+
           <div className="navbar-start is-size-5 container is-flex is-flex-direction-column">
-          <div className='is-size-3 is_X'><span onClick={toggleClass}>X</span></div>
+            <div className='is-size-3 is_X'><span onClick={toggleClass}>X</span></div>
             <a className="navbar-item has-text-white" >
               Whitepaper
             </a>
@@ -37,7 +37,7 @@ function Header() {
             </a>
             <div className="navbar-item">
               <div className="buttons">
-                <a className="button is_warning is-size-5">
+                <a href='play.smartcryptobet.co' className="button is_warning is-size-5">
                   <strong>Launch App</strong>
                 </a>
               </div>
@@ -59,7 +59,7 @@ function Header() {
             </a>
             <div className="navbar-item">
               <div className="buttons">
-                <a className="button is_warning is-size-5">
+                <a href='play.smartcryptobet.co' className="button is_warning is-size-5">
                   <strong>Launch App</strong>
                 </a>
               </div>

@@ -14,7 +14,7 @@ function Activities() {
                   Feel the pulse of the pitch, predict the final whistle's pitch! Football's your canvas, paint it and claim your victory.
                 </p>
                 <div className="buttons">
-                  <a className="button is_warning is-size-5 _white">
+                  <a href="play.smartcryptobet.co" className="button is_warning is-size-5 _white">
                     Launch App
                   </a>
                 </div>
@@ -32,7 +32,7 @@ function Activities() {
                 Place your bet on the fastest wheels. Feel the adrenaline, win big!
                 </p>
                 <div className="buttons">
-                  <a className="button is_warning is-size-5 _white">
+                  <a href="play.smartcryptobet.co" className="button is_warning is-size-5 _white">
                     Launch App
                   </a>
                 </div>
@@ -56,7 +56,7 @@ function Activities() {
                 <p className="is-size-5-mobile">
                 Take a chance on luck. Bet on the roll, watch the numbers unfold, and seize your winning moment!                </p>
                 <div className="buttons">
-                  <a className="button is_warning is-size-5 _white">
+                  <a href="play.smartcryptobet.co"  className="button is_warning is-size-5 _white">
                     Launch App
                   </a>
                 </div>
@@ -74,7 +74,7 @@ function Activities() {
                 <p className="is-size-5-mobile">
                 Luck meets strategy. Call it right, double your thrill, double your coins.</p>
                 <div className="buttons">
-                  <a className="button is_warning is-size-5 _white">
+                  <a href="play.smartcryptobet.co" className="button is_warning is-size-5 _white">
                     Launch App
                   </a>
                 </div>
@@ -97,7 +97,7 @@ function Activities() {
                 <p className="is-size-5-mobile">
                 Bet on nature's luck. Sweeten your odds with a fruity twist. Harvest winnings!                </p>
                 <div className="buttons">
-                  <a className="button is_warning is-size-5 _white">
+                  <a href="play.smartcryptobet.co" className="button is_warning is-size-5 _white">
                     Launch App
                   </a>
                 </div>
