@@ -29,7 +29,7 @@ function Hero() {
           </div>
           <div className="is-flex is-justify-content-space-evenly is-align-items-center">
             <button className="button is_warning is_3">
-              <a href="play.smartcryptobet.co" className="has-text-black"> Play Now</a>
+              <a href="https://play.smartcryptobet.co/" className="has-text-black"> Play Now</a>
 
             </button>
           </div>

@@ -1,4 +1,4 @@
-// import play from '../assets/images/play.png'
+
 function Video() {
   return (
     <>
