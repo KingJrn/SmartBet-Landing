@@ -13,7 +13,7 @@ function Activities() {
             <div className=" column rect is-flex is-flex-direction-row is-flex-wrap is-justify-content-center is-align-items-center">
               <img id="img_width" src={football} alt="Your GIF" />
             </div>
-            <div className="column is-flex is-flex-direction-row is-flex-wrap is-justify-content-center is-align-items-center">
+            <div className="has-text-center column is-flex is-flex-direction-row is-flex-wrap is-justify-content-center is-align-items-center">
               <div className="activity-info">
                 <h2 className="is-size-3-mobile">FOOTBALL</h2>
                 <p className="is-size-5-mobile">
@@ -31,7 +31,7 @@ function Activities() {
         {/* next columns */}
         <div className="mb-6 is_mb">
           <div className="columns test is-desktop mx-6 is_gap set_column_reverse ">
-            <div className="column is-flex is-flex-direction-row is-flex-wrap is-justify-content-center is-align-items-center">
+            <div className="has-text-center column is-flex is-flex-direction-row is-flex-wrap is-justify-content-center is-align-items-center">
               <div className="activity-info">
                 <h2 className="is-size-3-mobile">CAR RACE</h2>
                 <p className="is-size-5-mobile">
@@ -46,7 +46,7 @@ function Activities() {
 
             </div>
             <div className="column rect is-flex is-flex-direction-row is-flex-wrap is-justify-content-center is-align-items-center">
-              <img id="img_width" src={car} alt="Your GIF" />          
+              <img id="img_width" src={car} alt="Your GIF" />
             </div>
           </div>
         </div>
@@ -54,8 +54,8 @@ function Activities() {
         <div className="mb-6 is_mb">
           <div className="columns is-desktop mx-6 is_gap">
             <div className="column rect is-flex is-flex-direction-row is-flex-wrap is-justify-content-center is-align-items-center">
-            <img id="img_width" src={dice} alt="Your GIF" />            </div>
-            <div className="_activity column is-flex is-flex-direction-row is-flex-wrap is-justify-content-center is-align-items-center">
+              <img id="img_width" src={dice} alt="Your GIF" />            </div>
+            <div className="has-text-center _activity column is-flex is-flex-direction-row is-flex-wrap is-justify-content-center is-align-items-center">
               <div className="activity-info">
                 <h2 className="is-size-3-mobile">DICE</h2>
                 <p className="is-size-5-mobile">
@@ -72,7 +72,7 @@ function Activities() {
         </div>
         {/* next columns */}
         <div className="mb-6 is_mb">
-          <div className="columns is-desktop mx-6 is_gap set_column_reverse ">
+          <div className="has-text-center columns is-desktop mx-6 is_gap set_column_reverse ">
             <div className="_activity column is-flex is-flex-direction-row is-flex-wrap is-justify-content-center is-align-items-center">
               <div className="activity-info">
                 <h2 className="is-size-3-mobile">COIN FLIP</h2>
@@ -87,13 +87,13 @@ function Activities() {
 
             </div>
             <div className="column rect is-flex is-flex-direction-row is-flex-wrap is-justify-content-center is-align-items-center">
-            <img id="img_width" src={coin} alt="Your GIF" />            </div>
+              <img id="img_width" src={coin} alt="Your GIF" />            </div>
           </div>
         </div>
         <div className="is_mb">
-          <div className="columns is-desktop mx-6 is_gap">
+          <div className=" has-text-center columns is-desktop mx-6 is_gap">
             <div className="column rect is-flex is-flex-direction-row is-flex-wrap is-justify-content-center is-align-items-center">
-            <img id="img_width" src={fruits} alt="Your GIF" />            </div>
+              <img id="img_width" src={fruits} alt="Your GIF" />            </div>
             <div className="_activity column is-flex is-flex-direction-row is-flex-wrap is-justify-content-center is-align-items-center">
               <div className="activity-info">
                 <h2 className="is-size-3-mobile">FRUITS</h2>

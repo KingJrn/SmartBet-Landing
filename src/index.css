@@ -25,6 +25,7 @@ body {
   font-style: normal;
   line-height: normal;
   background: #001234;
+  font-family: "Inter";
 }
 /* utilities */
 
@@ -45,7 +46,12 @@ body {
   color: #f1c51a;
 }
 /* General styles */
-
+.has-text-center {
+  text-align: center;
+}
+.buttons {
+  justify-content: center !important;
+}
 /* Hero section */
 
 section.hero {

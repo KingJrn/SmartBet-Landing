@@ -12,9 +12,9 @@ function App() {
       <div className='hero-section'>
         <Hero />
       </div>
-      <div className='video-wrapper'>
+      {/* <div className='video-wrapper'>
         <Video />
-      </div>
+      </div> */}
       <Activities />
       <Footers />
     </>

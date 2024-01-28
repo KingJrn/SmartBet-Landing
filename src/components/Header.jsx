@@ -26,13 +26,13 @@ function Header() {
 
           <div className="navbar-start is-size-5 container is-flex is-flex-direction-column">
             <div className='is-size-3 is_X'><span onClick={toggleClass}>X</span></div>
-            <a className="navbar-item has-text-white" >
+            <a href='https://drive.google.com/file/d/1apMqpEaWaxjC8_nis3Kxs5iBqHuVbbiY/view?usp=drivesdk' className="navbar-item has-text-white" >
               Whitepaper
             </a>
             <a className="navbar-item has-text-white">
               About us
             </a>
-            <a className="navbar-item has-text-white">
+            <a href='https://docs.google.com/document/d/1rkKwAI9ux1aDnRTfLnRUldqzoEvCKlbPjlEjgb2um1s/edit?usp=drivesdk' className="navbar-item has-text-white">
               Terms
             </a>
             <div className="navbar-item">
@@ -48,13 +48,13 @@ function Header() {
         <div id="navbarBasicExample" className="navbar-menu">
 
           <div className="navbar-end is-size-5">
-            <a className="navbar-item has-text-white" >
+            <a href='https://drive.google.com/file/d/1apMqpEaWaxjC8_nis3Kxs5iBqHuVbbiY/view?usp=drivesdk' className="navbar-item has-text-white" >
               Whitepaper
             </a>
             <a className="navbar-item has-text-white">
               About us
             </a>
-            <a className="navbar-item has-text-white">
+            <a href='https://docs.google.com/document/d/1rkKwAI9ux1aDnRTfLnRUldqzoEvCKlbPjlEjgb2um1s/edit?usp=drivesdk' className="navbar-item has-text-white">
               Terms
             </a>
             <div className="navbar-item">
