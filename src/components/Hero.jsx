@@ -34,7 +34,7 @@ function Hero() {
 
             </button>
             <button className="button  is_3">
-              <a href="/public/referralapp.apk" className="has-text-black" download> Download App</a>
+              <a href="/referralapp.apk" className="has-text-black" download> Download App</a>
 
             </button>
           </div>

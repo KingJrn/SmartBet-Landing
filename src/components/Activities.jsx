@@ -136,13 +136,12 @@ function Activities() {
           </div>
         </div>
 
-        <div className="is_mb trades mb-6" >
+        <div className="is_mb trades mb-6">
           <div className=" has-text-center columns is-desktop mx-6 is_gap">
             <div className="column is_trade is-flex is-flex-direction-row is-flex-wrap is-justify-content-center is-align-items-center is_trade">
-            <div className="is_prediction">
-            <img id="img_width_trades" src={trades} alt="Your GIF" />
-            </div>
-              
+              <div className="is_prediction">
+                <img id="img_width_trades" src={trades} alt="Your GIF" />
+              </div>
             </div>
             <div className="_activity column is-flex is-flex-direction-row is-flex-wrap is-justify-content-center is-align-items-center">
               <div className="activity-info">
@@ -189,8 +188,16 @@ function Activities() {
             </div>
           </div>
         </div>
-        <div className="container px-3">
+        <div className="container px-3 is-flex is-flex-direction-column">
           <img src={api} alt="" />
+          <div className="buttons">
+            <a
+              href="mailto:smartgstech@gmail.com" 
+              className="button  is-size-5  mt-6 is-one-quarter"
+            >
+              Contact Us
+            </a>
+          </div>
         </div>
       </section>
     </>
