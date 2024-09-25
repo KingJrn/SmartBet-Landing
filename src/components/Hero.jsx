@@ -1,3 +1,4 @@
+
 function Hero() {
   return (
     <>
@@ -30,7 +31,7 @@ function Hero() {
 
           <div className="is-flex  is-align-items-center is-flex-wrap-wrap hero_btn is-justify-content-center">
             <button className="button is_warning is_3">
-              <a href="https://play.smartcryptobet.co/" className="has-text-black"> Play Now</a>
+              <a href="https://smartbetweb.netlify.app/" className="has-text-black"> Play Now</a>
 
             </button>
             <button className="button  is_3">

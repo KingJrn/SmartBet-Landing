@@ -26,7 +26,7 @@ function Activities() {
                 </p>
                 <div className="buttons">
                   <a
-                    href="https://play.smartcryptobet.co/"
+                    href="https://smartbetweb.netlify.app/"
                     className="button is_warning is-size-5 _white"
                   >
                     Launch App
@@ -48,7 +48,7 @@ function Activities() {
                 </p>
                 <div className="buttons">
                   <a
-                    href="https://play.smartcryptobet.co/"
+                    href="https://smartbetweb.netlify.app/"
                     className="button is_warning is-size-5 _white"
                   >
                     Launch App
@@ -76,7 +76,7 @@ function Activities() {
                 </p>
                 <div className="buttons">
                   <a
-                    href="https://play.smartcryptobet.co/"
+                    href="https://smartbetweb.netlify.app/"
                     className="button is_warning is-size-5 _white"
                   >
                     Launch App
@@ -98,7 +98,7 @@ function Activities() {
                 </p>
                 <div className="buttons">
                   <a
-                    href="https://play.smartcryptobet.co/"
+                    href="https://smartbetweb.netlify.app/"
                     className="button is_warning is-size-5 _white"
                   >
                     Launch App
@@ -125,7 +125,7 @@ function Activities() {
                 </p>
                 <div className="buttons">
                   <a
-                    href="https://play.smartcryptobet.co/"
+                    href="https://smartbetweb.netlify.app/"
                     className="button is_warning is-size-5 _white"
                   >
                     Launch App
@@ -152,7 +152,7 @@ function Activities() {
                 </p>
                 <div className="buttons">
                   <a
-                    href="https://play.smartcryptobet.co/"
+                    href="https://smartbetweb.netlify.app/"
                     className="button is_warning is-size-5 _white"
                   >
                     Launch App
@@ -173,7 +173,7 @@ function Activities() {
                 </p>
                 <div className="buttons">
                   <a
-                    href="https://play.smartcryptobet.co/"
+                    href="https://smartbetweb.netlify.app/"
                     className="button is_warning is-size-5 _white"
                   >
                     Launch App
