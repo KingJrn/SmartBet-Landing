@@ -45,7 +45,7 @@ function Footers() {
       <footer className="footer">
         <div className="content has-text-centered">
           <div className="footer-content is-size-7-mobile">
-            <a href="https://www.beiedu.co" style={{color: 'white'}}> BEI CONSULTANCY LTD, All rights reserved @2024</a>
+            <a href="https://beiedu.co" style={{color: 'white'}}> Powered by BEI CONSULTANCY LTD, All rights reserved @2024</a>
             <span className='me-auto'><span>How it works</span> <span className='about-us'>About Us</span></span>
           </div>
         </div>
