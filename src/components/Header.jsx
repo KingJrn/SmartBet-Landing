@@ -50,7 +50,7 @@ function Header() {
             >
               Whitepaper
             </a>
-            <a href="http://localhost:5173/" className="navbar-item has-text-white">About us</a>
+            <a href="https://beiedu.co/about_us" className="navbar-item has-text-white">About us</a>
             <a
               href="https://docs.google.com/document/d/1rkKwAI9ux1aDnRTfLnRUldqzoEvCKlbPjlEjgb2um1s/edit?usp=drivesdk"
               className="navbar-item has-text-white"
