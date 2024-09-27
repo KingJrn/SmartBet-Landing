@@ -24,7 +24,7 @@ function Accordion() {
                 <div className="faq-drawer__content">
                 <p>
                     To interact with SmartGame, open <a href="play.smartgame.tech">play.smartgame.tech</a> on your
-                    browser or download our app from playstor or apple store,
+                    browser or download our app from playstore or apple store,
                     next you connect your wallet, navigate to your desired event
                     or casino game, select your wager, and confirm transaction.{" "}
                   </p>
