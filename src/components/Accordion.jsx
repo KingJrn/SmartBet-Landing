@@ -18,15 +18,15 @@ function Accordion() {
                 type="checkbox"
               />
               <label className="faq-drawer__title" htmlFor="faq-drawer">
-                How do I place a bet on SmartGame ?
+              How do I interact with SmartGame platform?
               </label>
               <div className="faq-drawer__content-wrapper">
                 <div className="faq-drawer__content">
-                  <p>
-                    To place a bet, open{" "}
-                    <a href="play.smartgame.tech">play.smartgame.tech</a>{" "}
-                    connect your wallet, navigate to the desired sports event or
-                    casino game, select your wager, and confirm transaction.
+                <p>
+                    To interact with SmartGame, open <a href="play.smartgame.tech">play.smartgame.tech</a> on your
+                    browser or download our app from playstor or apple store,
+                    next you connect your wallet, navigate to your desired event
+                    or casino game, select your wager, and confirm transaction.{" "}
                   </p>
                 </div>
               </div>
@@ -133,26 +133,7 @@ function Accordion() {
                 </div>
               </div>
             </div>
-            <div className="faq-drawer">
-              <input
-                className="faq-drawer__trigger"
-                id="faq-drawer-7"
-                type="checkbox"
-              />
-              <label className="faq-drawer__title" htmlFor="faq-drawer-6">
-                How do I interact with SmartGame platform?
-              </label>
-              <div className="faq-drawer__content-wrapper">
-                <div className="faq-drawer__content">
-                  <p>
-                    To interact with SmartGame, open play.smartgame.tech on your
-                    browser or download our app from playstor or apple store,
-                    next you connect your wallet, navigate to your desired event
-                    or casino game, select your wager, and confirm transaction.{" "}
-                  </p>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </section>
