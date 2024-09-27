@@ -1,43 +1,68 @@
-import { useState } from 'react'
-import Logo from '../assets/images/logo.svg'
+import { useState } from "react";
+import Logo from "../assets/images/logo.svg";
 
 function Header() {
   // initializing state  using the use state hooks
   const [isActive, setActive] = useState(false);
   const toggleClass = () => {
     setActive(!isActive);
-  }
+  };
   return (
     <>
-      <nav className="navbar py-2 px-5 is_primary_blue" role="navigation" aria-label="main navigation">
+      <nav
+        className="navbar py-2 px-5 is_primary_blue"
+        role="navigation"
+        aria-label="main navigation"
+      >
         <div className="navbar-brand">
           <a className="navbar-item" href="">
-            <img src={Logo} width="112" height="28" className='is_image' alt="Bulma Logo" />
+            <img
+              src={Logo}
+              width="112"
+              height="28"
+              className="is_image"
+              alt="Bulma Logo"
+            />
           </a>
 
-          <a onClick={toggleClass} role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <a
+            onClick={toggleClass}
+            role="button"
+            className="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
         </div>
         {/* display nne on desktop screen */}
-        <nav className={`is-0-mobile ${isActive ? 'mobile_nav' : ''}`}>
-
+        <nav className={`is-0-mobile ${isActive ? "mobile_nav" : ""}`}>
           <div className="navbar-start is-size-5 container is-flex is-flex-direction-column">
-            <div className='is-size-3 is_X'><span onClick={toggleClass}>X</span></div>
-            <a href='https://drive.google.com/file/d/1apMqpEaWaxjC8_nis3Kxs5iBqHuVbbiY/view?usp=drivesdk' className="navbar-item has-text-white" >
+            <div className="is-size-3 is_X">
+              <span onClick={toggleClass}>X</span>
+            </div>
+            <a
+              href="https://drive.google.com/file/d/1apMqpEaWaxjC8_nis3Kxs5iBqHuVbbiY/view?usp=drivesdk"
+              className="navbar-item has-text-white"
+            >
               Whitepaper
             </a>
-            <a className="navbar-item has-text-white">
-              About us
-            </a>
-            <a href='https://docs.google.com/document/d/1rkKwAI9ux1aDnRTfLnRUldqzoEvCKlbPjlEjgb2um1s/edit?usp=drivesdk' className="navbar-item has-text-white">
+            <a className="navbar-item has-text-white">About us</a>
+            <a
+              href="https://docs.google.com/document/d/1rkKwAI9ux1aDnRTfLnRUldqzoEvCKlbPjlEjgb2um1s/edit?usp=drivesdk"
+              className="navbar-item has-text-white"
+            >
               Terms
             </a>
             <div className="navbar-item">
               <div className="buttons">
-                <a href='https://play.smartcryptobet.co/' className="button is_warning is-size-5">
+                <a
+                  href="https://smartbetweb.netlify.app/"
+                  className="button is_warning is-size-5"
+                >
                   <strong>Launch App</strong>
                 </a>
               </div>
@@ -46,20 +71,26 @@ function Header() {
         </nav>
         {/* ends  */}
         <div id="navbarBasicExample" className="navbar-menu">
-
           <div className="navbar-end is-size-5">
-            <a href='https://drive.google.com/file/d/1apMqpEaWaxjC8_nis3Kxs5iBqHuVbbiY/view?usp=drivesdk' className="navbar-item has-text-white" >
+            <a
+              href="https://drive.google.com/file/d/1apMqpEaWaxjC8_nis3Kxs5iBqHuVbbiY/view?usp=drivesdk"
+              className="navbar-item has-text-white"
+            >
               Whitepaper
             </a>
-            <a className="navbar-item has-text-white">
-              About us
-            </a>
-            <a href='https://docs.google.com/document/d/1rkKwAI9ux1aDnRTfLnRUldqzoEvCKlbPjlEjgb2um1s/edit?usp=drivesdk' className="navbar-item has-text-white">
+            <a className="navbar-item has-text-white">About us</a>
+            <a
+              href="https://docs.google.com/document/d/1rkKwAI9ux1aDnRTfLnRUldqzoEvCKlbPjlEjgb2um1s/edit?usp=drivesdk"
+              className="navbar-item has-text-white"
+            >
               Terms
             </a>
             <div className="navbar-item">
               <div className="buttons">
-                <a href='https://play.smartcryptobet.co/' className="button is_warning is-size-5">
+                <a
+                  href="https://play.smartcryptobet.co/"
+                  className="button is_warning is-size-5"
+                >
                   <strong>Launch App</strong>
                 </a>
               </div>
@@ -68,7 +99,7 @@ function Header() {
         </div>
       </nav>
     </>
-  )
+  );
 }
 
-export default Header
+export default Header;
