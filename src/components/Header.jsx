@@ -60,8 +60,8 @@ function Header() {
             <div className="navbar-item">
               <div className="buttons">
                 <a
-                  href="https://smartbetweb.netlify.app/"
-                  className="button is_warning is-size-5"
+                  href="https://smartbetweb.netlify.app/" target="_blank"
+                  className="button is_warning is-size-5" rel="noreferrer"
                 >
                   <strong>Launch App</strong>
                 </a>
@@ -88,8 +88,8 @@ function Header() {
             <div className="navbar-item">
               <div className="buttons">
                 <a
-                  href="https://play.smartcryptobet.co/"
-                  className="button is_warning is-size-5"
+                  href="https://smartbetweb.netlify.app/" target="_blank"
+                  className="button is_warning is-size-5" rel="noreferrer"
                 >
                   <strong>Launch App</strong>
                 </a>

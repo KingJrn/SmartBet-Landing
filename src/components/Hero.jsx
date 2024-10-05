@@ -31,11 +31,11 @@ function Hero() {
 
           <div className="is-flex  is-align-items-center is-flex-wrap-wrap hero_btn is-justify-content-center">
             <button className="button is_warning is_3">
-              <a href="https://smartbetweb.netlify.app/" className="has-text-black"> Play Now</a>
+              <a href="https://smartbetweb.netlify.app/" className="has-text-black" target="_blank" rel="noreferrer"> Play Now</a>
 
             </button>
             <button className="button  is_3">
-              <a href="/referralapp.apk" className="has-text-black" download> Download App</a>
+              <a href="https://drive.google.com/file/d/13ZN2sxHnlpsNyF0bPQZHEWwmlaFnUQjV/view?usp=drivesdk" className="has-text-black"> Download App</a>
 
             </button>
           </div>

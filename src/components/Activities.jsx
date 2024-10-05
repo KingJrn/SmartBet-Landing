@@ -26,8 +26,8 @@ function Activities() {
                 </p>
                 <div className="buttons">
                   <a
-                    href="https://smartbetweb.netlify.app/"
-                    className="button is_warning is-size-5 _white"
+                    href="https://smartbetweb.netlify.app/" target="_blank"
+                    className="button is_warning is-size-5 _white" rel="noreferrer"
                   >
                     Launch App
                   </a>
@@ -48,8 +48,8 @@ function Activities() {
                 </p>
                 <div className="buttons">
                   <a
-                    href="https://smartbetweb.netlify.app/"
-                    className="button is_warning is-size-5 _white"
+                    href="https://smartbetweb.netlify.app/" target="_blank"
+                    className="button is_warning is-size-5 _white" rel="noreferrer"
                   >
                     Launch App
                   </a>
@@ -76,8 +76,8 @@ function Activities() {
                 </p>
                 <div className="buttons">
                   <a
-                    href="https://smartbetweb.netlify.app/"
-                    className="button is_warning is-size-5 _white"
+                    href="https://smartbetweb.netlify.app/" target="_blank"
+                    className="button is_warning is-size-5 _white" rel="noreferrer"
                   >
                     Launch App
                   </a>
@@ -98,8 +98,8 @@ function Activities() {
                 </p>
                 <div className="buttons">
                   <a
-                    href="https://smartbetweb.netlify.app/"
-                    className="button is_warning is-size-5 _white"
+                    href="https://smartbetweb.netlify.app/" target="_blank"
+                    className="button is_warning is-size-5 _white" rel="noreferrer"
                   >
                     Launch App
                   </a>
@@ -125,8 +125,8 @@ function Activities() {
                 </p>
                 <div className="buttons">
                   <a
-                    href="https://smartbetweb.netlify.app/"
-                    className="button is_warning is-size-5 _white"
+                    href="https://smartbetweb.netlify.app/" target="_blank"
+                    className="button is_warning is-size-5 _white" rel="noreferrer"
                   >
                     Launch App
                   </a>
@@ -152,8 +152,8 @@ function Activities() {
                 </p>
                 <div className="buttons">
                   <a
-                    href="https://smartbetweb.netlify.app/"
-                    className="button is_warning is-size-5 _white"
+                    href="https://smartbetweb.netlify.app/" target="_blank"
+                    className="button is_warning is-size-5 _white" rel="noreferrer"
                   >
                     Launch App
                   </a>
@@ -173,8 +173,8 @@ function Activities() {
                 </p>
                 <div className="buttons">
                   <a
-                    href="https://smartbetweb.netlify.app/"
-                    className="button is_warning is-size-5 _white"
+                    href="https://smartbetweb.netlify.app/" target="_blank"
+                    className="button is_warning is-size-5 _white" rel="noreferrer"
                   >
                     Launch App
                   </a>
